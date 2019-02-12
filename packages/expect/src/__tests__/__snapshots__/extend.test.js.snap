@@ -1,63 +1,63 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`defines asymmetric unary matchers 1`] = `
-"<dim>expect(</><red>received</><dim>).toEqual(</><green>expected</><dim>)</>
+"expect(received).toEqual(expected)
 
 Difference:
 
-<green>- Expected</>
-<red>+ Received</>
+- Expected
++ Received
 
-<dim>  Object {</>
-<green>-   \\"value\\": toBeDivisibleBy<2>,</>
-<red>+   \\"value\\": 3,</>
-<dim>  }</>"
+  Object {
+-   \\"value\\": toBeDivisibleBy<2>,
++   \\"value\\": 3,
+  }"
 `;
 
 exports[`defines asymmetric unary matchers that can be prefixed by not 1`] = `
-"<dim>expect(</><red>received</><dim>).toEqual(</><green>expected</><dim>)</>
+"expect(received).toEqual(expected)
 
 Difference:
 
-<green>- Expected</>
-<red>+ Received</>
+- Expected
++ Received
 
-<dim>  Object {</>
-<green>-   \\"value\\": not.toBeDivisibleBy<2>,</>
-<red>+   \\"value\\": 2,</>
-<dim>  }</>"
+  Object {
+-   \\"value\\": not.toBeDivisibleBy<2>,
++   \\"value\\": 2,
+  }"
 `;
 
 exports[`defines asymmetric variadic matchers 1`] = `
-"<dim>expect(</><red>received</><dim>).toEqual(</><green>expected</><dim>)</>
+"expect(received).toEqual(expected)
 
 Difference:
 
-<green>- Expected</>
-<red>+ Received</>
+- Expected
++ Received
 
-<dim>  Object {</>
-<green>-   \\"value\\": toBeWithinRange<4, 11>,</>
-<red>+   \\"value\\": 3,</>
-<dim>  }</>"
+  Object {
+-   \\"value\\": toBeWithinRange<4, 11>,
++   \\"value\\": 3,
+  }"
 `;
 
 exports[`defines asymmetric variadic matchers that can be prefixed by not 1`] = `
-"<dim>expect(</><red>received</><dim>).toEqual(</><green>expected</><dim>)</>
+"expect(received).toEqual(expected)
 
 Difference:
 
-<green>- Expected</>
-<red>+ Received</>
+- Expected
++ Received
 
-<dim>  Object {</>
-<green>-   \\"value\\": not.toBeWithinRange<1, 3>,</>
-<red>+   \\"value\\": 2,</>
-<dim>  }</>"
+  Object {
+-   \\"value\\": not.toBeWithinRange<1, 3>,
++   \\"value\\": 2,
+  }"
 `;
 
 exports[`is available globally when matcher is unary 1`] = `"expected 15 to be divisible by 2"`;
 
 exports[`is available globally when matcher is variadic 1`] = `"expected 15 to be within range 1 - 3"`;
 
-exports[`is ok if there is no message specified 1`] = `"<red>No message was specified for this matcher.</>"`;
+exports[`is ok if there is no message specified 1`] = `"No message was specified for this matcher."`;
